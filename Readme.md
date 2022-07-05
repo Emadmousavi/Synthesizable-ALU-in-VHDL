@@ -1,6 +1,6 @@
 # ALU in VHDL
 ### This is ISE(Xilinx) project which I implement a simple alu in vhdl.
-####this alu can handle below operations:
+#### this alu can handle below operations:
 
 1- sum
 
@@ -15,4 +15,4 @@
 6- sqrt
 
 
-####all of this operations are in ALU_OP package (ALU_OP.vhd) and they are imported in main file (ALU.vhd)
+#### all of this operations are in ALU_OP package (ALU_OP.vhd) and they are imported in main file (ALU.vhd)
