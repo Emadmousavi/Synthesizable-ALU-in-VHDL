@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500xl "ALU.ngc" ALU.ngd  
+cpldfit -intstyle ise -p xc95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ALU.ngd 
+XSLTProcess ALU_build.xml 
+tsim -intstyle ise ALU ALU.nga 
+taengine -intstyle ise -f ALU -w --format html1 -l ALU_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ALU -i ALU 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500xl "ALU.ngc" ALU.ngd  
+cpldfit -intstyle ise -p xc95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ALU.ngd 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500xl "ALU.ngc" ALU.ngd  
+cpldfit -intstyle ise -p xc95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ALU.ngd 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500xl "ALU.ngc" ALU.ngd  
+cpldfit -intstyle ise -p xc95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ALU.ngd 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500xl "ALU.ngc" ALU.ngd  
+cpldfit -intstyle ise -p xc95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ALU.ngd 
+xst -intstyle ise -ifn "F:/xilinx project/Super_ALU/ALU.xst" -ofn "F:/xilinx project/Super_ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500xl "ALU.ngc" ALU.ngd  
+cpldfit -intstyle ise -p xc95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ALU.ngd 

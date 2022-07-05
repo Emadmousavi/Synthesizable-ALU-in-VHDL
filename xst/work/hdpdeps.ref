@@ -1,0 +1,12 @@
+V3 6
+FL "F:/xilinx project/Super_ALU/ALU.vhd" 2022/07/05.16:06:15 P.20131013
+EN work/ALU 1657022322 FL "F:/xilinx project/Super_ALU/ALU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/ALU_OP 1657022321
+AR work/ALU/Behavioral 1657022323 \
+      FL "F:/xilinx project/Super_ALU/ALU.vhd" EN work/ALU 1657022322
+FL "F:/xilinx project/Super_ALU/ALU_OP.vhd" 2022/07/05.16:26:00 P.20131013
+PH work/ALU_OP 1657022320 FL "F:/xilinx project/Super_ALU/ALU_OP.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+PB work/ALU_OP 1657022321 \
+      FL "F:/xilinx project/Super_ALU/ALU_OP.vhd" PH work/ALU_OP 1657022320

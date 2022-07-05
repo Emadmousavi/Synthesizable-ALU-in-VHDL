@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/xilinx project/Super_ALU/ALU_isim_beh.exe" -prj "F:/xilinx project/Super_ALU/ALU_beh.prj" "work.ALU" 

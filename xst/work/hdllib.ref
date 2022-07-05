@@ -1,0 +1,4 @@
+PB alu_op alu_op "F:/xilinx project/Super_ALU/ALU_OP.vhd" sub00/vhpl03 1657022321
+AR alu behavioral "F:/xilinx project/Super_ALU/ALU.vhd" sub00/vhpl01 1657022323
+PH alu_op NULL "F:/xilinx project/Super_ALU/ALU_OP.vhd" sub00/vhpl02 1657022320
+EN alu NULL "F:/xilinx project/Super_ALU/ALU.vhd" sub00/vhpl00 1657022322
